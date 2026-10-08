@@ -15,7 +15,7 @@ More skills are coming (weekly happy-customer digest, advocate ask drafter). Wat
 
 **Claude Code (plugin, auto-updates)**
 ```
-/plugin marketplace add {github-org}/ue-cma-toolkit
+/plugin marketplace add DemandLoops/ue-cma-toolkit
 /plugin install cma-toolkit@userevidence
 ```
 
