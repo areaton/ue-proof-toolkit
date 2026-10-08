@@ -1,0 +1,14 @@
+{
+  "name": "userevidence",
+  "owner": {
+    "name": "UserEvidence",
+    "url": "https://userevidence.com"
+  },
+  "plugins": [
+    {
+      "name": "cma-toolkit",
+      "source": "./",
+      "description": "Skills for customer marketing and advocacy teams: map your proof surface area and find the customer proof you're missing."
+    }
+  ]
+}
