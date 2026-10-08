@@ -1,14 +1,11 @@
 {
-  "name": "userevidence",
-  "owner": {
+  "name": "cma-toolkit",
+  "version": "0.1.0",
+  "description": "Skills for customer marketing and advocacy teams: map your proof surface area and find the customer proof you're missing.",
+  "author": {
     "name": "UserEvidence",
     "url": "https://userevidence.com"
   },
-  "plugins": [
-    {
-      "name": "cma-toolkit",
-      "source": "./",
-      "description": "Skills for customer marketing and advocacy teams: map your proof surface area and find the customer proof you're missing."
-    }
-  ]
+  "homepage": "https://userevidence.com/?utm_source=cma-toolkit&utm_medium=plugin",
+  "keywords": ["customer-marketing", "customer-advocacy", "case-studies", "proof", "testimonials"]
 }
