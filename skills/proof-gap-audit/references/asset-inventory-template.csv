@@ -1,2 +1,2 @@
-customer,asset_title,format,url,product,vertical,company_size,persona_title,seniority,region,motion_or_competitor,date_published
-Acme Corp,How Acme cut onboarding time in half,case study,https://example.com/acme,Core platform,Fintech,Enterprise,VP Operations,VP,NA,Displaced Competitor X,2025-11
+customer,asset_title,format,url,product,vertical,company_size,persona_title,seniority,region,motion_or_competitor,date_published,status
+Acme Corp,How Acme cut onboarding time in half,case study,https://example.com/acme,Core platform,Fintech,Enterprise,VP Operations,VP,NA,Displaced Competitor X,2025-11,live

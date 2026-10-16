@@ -31,10 +31,17 @@ _Created {YYYY-MM-DD} with the UserEvidence CMA Toolkit. Refresh quarterly._
 - {Competitor 2}
 
 ## Proof formats in use or wanted
-- {Case study, quote, video, review, reference call, logo, stat}
+- {Case study, quote, video, review site profile, reference call, logo, stat}
 
 ## Current business priority
 {One or two sentences in the user's words.}
+
+## Priority plays
+1. {Dimension × Dimension × Dimension} (example: Enterprise × Healthcare × EMEA × VP Security)
+2. {…}
+
+## What sales asks for that we can't provide
+- {Request, in the rep's or user's words}
 
 ## Where proof lives today
 - {Spreadsheet / library / site / Drive / platform, with links if given}

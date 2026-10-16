@@ -6,7 +6,7 @@ Claude skills for customer marketing, customer advocacy, and customer evangelism
 
 | Skill | What it does | When to run it |
 | --- | --- | --- |
-| `proof-map-setup` | Asks ~12 questions about your products, verticals, personas, regions, and priorities. Saves `proof-map.md`. | Once, then quarterly |
+| `proof-map-setup` | Asks ~13 questions about your products, verticals, personas, regions, and priorities, then confirms your top priority plays. Saves `proof-map.md`. | Once, then quarterly |
 | `proof-gap-audit` | Compares your existing proof to your Proof Map. Returns your top gaps, hidden proof from calls and closed-won deals, and draft asks. | Monthly or quarterly |
 
 More skills are coming (weekly happy-customer digest, advocate ask drafter). Watch or star this repo to get them.
@@ -27,7 +27,7 @@ More skills are coming (weekly happy-customer digest, advocate ask drafter). Wat
 ## Quick start
 1. Say **"set up my proof map."** Answer the questions (about 10 minutes).
 2. Gather your proof: a spreadsheet, a resources page URL, or an export. A CSV template is in `skills/proof-gap-audit/references/`.
-3. Say **"run a proof gap audit."** Attach call transcripts or a closed-won list if you want hidden-proof suggestions.
+3. Say **"run a proof gap audit."** Attach call transcripts, a closed-won list, or a list of churned customers if you want hidden-proof suggestions and at-risk flags.
 
 ## Works with or without UserEvidence
 The skills run on spreadsheets, URLs, and pasted lists. If you use UserEvidence, they'll read your library through the UserEvidence MCP.
