@@ -11,12 +11,12 @@ The output is one file: `proof-map.md`. Every other skill in the toolkit reads i
 
 ## Updating an existing map
 
-If the user already has a `proof-map.md` (in the working folder or attached), do not start from scratch. Show a short summary of what it says, ask "What's changed since {date}?", update only those sections, and bump the date. A quarterly refresh should take two minutes, not ten.
+If the user already has a `proof-map.md` (in the working folder or attached), do not start from scratch. Show a short summary of what it says, ask "What's changed since {date}?", update only those sections, and bump the date. Show the changed lines and get a quick yes before saving. If a newly prioritized dimension isn't in any priority play, ask whether to add it to one. A quarterly refresh should take two minutes, not ten.
 
 ## How to run the conversation
 
 - Ask in small batches (2-3 questions at a time). Never dump the full question list at once.
-- Offer examples with every question so the user can answer fast.
+- Offer examples with every question so the user can answer fast. Keep examples generic; don't build them from the user's earlier answers, especially for questions 11 and 12, or you'll be putting words in their mouth.
 - Accept rough answers. "Mostly mid-market, some enterprise" is fine. Do not push for precision the user doesn't have.
 - If the user pastes a doc, positioning deck, ICP sheet, or website URL, pull answers from it first, then confirm with them instead of asking from scratch.
 - If the user wants to skip a question, write `unknown` and move on.

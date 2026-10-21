@@ -6,3 +6,4 @@
 - `proof-map-setup`: add sales-requests question, priority plays (1-3 dimension combinations), and an update mode for quarterly refreshes
 - `proof-gap-audit`: check coverage against priority plays, add At risk and In progress statuses, summarize review sites per platform, dedupe assets, match asks to customer tenure, name who should send each ask, flag over-tapped advocates
 - Inventory CSV: add `status` column
+- After a live test run: keep setup examples generic, confirm update-mode changes before saving, and avoid sending one customer two asks
