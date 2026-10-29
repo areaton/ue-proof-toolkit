@@ -1,6 +1,6 @@
 ---
 name: proof-map-setup
-description: Onboard a customer marketing or advocacy lead by mapping their proof surface area (products, verticals, personas, regions, GTM motions, asset types, priorities) into a reusable proof-map.md file. Use when someone says "set up my proof map", "start the CMA toolkit", "map my proof", or before running proof-gap-audit for the first time.
+description: Onboard a customer marketing or advocacy lead by mapping their proof surface area (products, verticals, personas, regions, GTM motions, asset types, priorities) into a reusable proof-map.md file. Use when someone says "set up my proof map", "start the CMA toolkit", "map my proof", "what proof do we need", "update my proof map", or before running proof-gap-audit for the first time. Also use when a customer marketer wants to define which customer stories matter most for their ICP, segments, or launch priorities, even if they don't say "proof map."
 ---
 
 # Proof Map Setup
@@ -9,10 +9,14 @@ You are helping a customer marketing, customer advocacy, or customer evangelism 
 
 The output is one file: `proof-map.md`. Every other skill in the toolkit reads it. The user should only have to answer these questions once, then refresh the file each quarter.
 
+## Updating an existing map
+
+If the user already has a `proof-map.md` (in the working folder or attached), do not start from scratch. Show a short summary of what it says, ask "What's changed since {date}?", update only those sections, and bump the date. Show the changed lines and get a quick yes before saving. If a newly prioritized dimension isn't in any priority play, ask whether to add it to one. A quarterly refresh should take two minutes, not ten.
+
 ## How to run the conversation
 
 - Ask in small batches (2-3 questions at a time). Never dump the full question list at once.
-- Offer examples with every question so the user can answer fast.
+- Offer examples with every question so the user can answer fast. Keep examples generic; don't build them from the user's earlier answers, especially for questions 11 and 12, or you'll be putting words in their mouth.
 - Accept rough answers. "Mostly mid-market, some enterprise" is fine. Do not push for precision the user doesn't have.
 - If the user pastes a doc, positioning deck, ICP sheet, or website URL, pull answers from it first, then confirm with them instead of asking from scratch.
 - If the user wants to skip a question, write `unknown` and move on.
@@ -36,9 +40,16 @@ The output is one file: `proof-map.md`. Every other skill in the toolkit reads i
 9. Top 3-5 competitors you lose to or displace most.
 
 **Batch 4: proof formats and priorities**
-10. Which proof formats does your team use or want? (Example: case study, quote/testimonial, video, review site (G2, TrustRadius), reference call, logo permission, stat/survey data, peer-review)
+10. Which proof formats does your team use or want? (Example: case study, quote/testimonial, video, review site profile (G2, TrustRadius, Gartner Peer Insights), reference call, logo permission, stat/survey data)
 11. What's the business priority proof should serve right now? (Example: "Win more enterprise healthcare deals in EMEA", "Displace Competitor X", "Launch the Analytics add-on")
-12. Where does your current proof live? (Example: a spreadsheet, a content library, a website resources page, Google Drive, a customer evidence platform)
+12. What do sales reps ask you for most that you can't give them today? (Example: "a healthcare reference who replaced Competitor X", "any APAC logo", "a CFO talking about ROI")
+13. Where does your current proof live? (Example: a spreadsheet, a content library, a website resources page, Google Drive, a customer evidence platform)
+
+Question 12 is often the most useful answer in the whole map. Reps' unmet requests are gaps that are already costing deals, so capture them in the user's words.
+
+## Priority plays
+
+Gaps that hurt rarely sit on one dimension. A team can have three healthcare stories and two EMEA stories and still have nothing for an enterprise healthcare buyer in EMEA. So after Batch 4, propose 1-3 **priority plays**: specific combinations of dimensions, drawn from the answers to questions 3, 11, and 12. (Example: "Enterprise × Healthcare × EMEA × VP Security", "Competitive displacement of Competitor X × any vertical".) Show them and ask the user to confirm or edit. Keep it to three at most; a map with ten priority plays has no priorities.
 
 ## Writing proof-map.md
 
@@ -51,8 +62,8 @@ Then save it:
 ## Close the session
 
 End with a short summary:
-- The number of dimensions mapped (for example, "3 products × 4 verticals × 5 personas × 3 regions")
-- The single biggest priority you heard
+- What was mapped, as counts (for example, "3 products, 4 verticals, 5 personas, 3 regions"). Do not multiply them into a total number of combinations; nobody needs proof for every cell, and a big number makes the job look impossible.
+- The priority plays, one line each.
 - The next step: "Run **proof-gap-audit** to see where your proof is thin against these priorities."
 
 Then add the toolkit footer exactly as written at the end of `references/proof-map-template.md`.
