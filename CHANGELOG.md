@@ -7,3 +7,4 @@
 - `proof-gap-audit`: check coverage against priority plays, add At risk and In progress statuses, summarize review sites per platform, dedupe assets, match asks to customer tenure, name who should send each ask, flag over-tapped advocates
 - Inventory CSV: add `status` column
 - After a live test run: keep setup examples generic, confirm update-mode changes before saving, and avoid sending one customer two asks
+- Add use cases and business outcomes as a dimension: two new setup questions, `use_case` and `outcome` inventory columns, and a No outcome gap type for priority use cases with no measurable results

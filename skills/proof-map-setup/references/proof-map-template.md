@@ -6,6 +6,11 @@ _Created {YYYY-MM-DD} with the UserEvidence CMA Toolkit. Refresh quarterly._
 - **What we sell:** {one line}
 - **Product lines:** {Product A (priority)}, {Product B}, {Product C}
 
+## Use cases and outcomes
+| Use case | Outcome buyers expect | How it's measured | Priority |
+| --- | --- | --- | --- |
+| {Use case} | {outcome} | {metric, or unknown} | {yes/no} |
+
 ## Verticals
 - {Vertical 1} (priority)
 - {Vertical 2}
@@ -37,7 +42,7 @@ _Created {YYYY-MM-DD} with the UserEvidence CMA Toolkit. Refresh quarterly._
 {One or two sentences in the user's words.}
 
 ## Priority plays
-1. {Dimension × Dimension × Dimension} (example: Enterprise × Healthcare × EMEA × VP Security)
+1. {Dimension × Dimension × Dimension} (examples: Automated reconciliation × Faster close × VP Finance, Enterprise × Healthcare × EMEA × VP Security)
 2. {…}
 
 ## What sales asks for that we can't provide

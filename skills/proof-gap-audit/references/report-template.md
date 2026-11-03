@@ -11,12 +11,13 @@ _{YYYY-MM-DD} · {N} assets reviewed ({M} review-site profiles summarized separa
 ## Priority plays
 | Priority play | Full matches | Near matches (missing one dimension) | Status |
 | --- | --- | --- | --- |
-| {Enterprise × Healthcare × EMEA × VP Security} | {n} | {Customer: missing EMEA} | {Covered / Thin / Missing / At risk / In progress} |
+| {Automated reconciliation × Faster close × VP Finance} | {n} | {Customer: missing VP Finance} | {Covered / No outcome / Thin / Missing / At risk / In progress} |
 
 ## Coverage at a glance
 | Dimension | Value | Assets | Formats | Newest | Status |
 | --- | --- | --- | --- | --- | --- |
 | Product | {Product A} (priority) | {n} | {case study, quote} | {YYYY-MM} | {Covered / Thin / Missing / Stale} |
+| Use case | {Use case} (priority) | {n} ({k} with a measurable outcome) | {…} | {…} | {Covered / No outcome / Thin / Missing} |
 | Vertical | {Vertical} (priority) | {n} | {…} | {…} | {…} |
 | Persona | {Title} | {n} | {…} | {…} | {…} |
 | Region | {Region} | {n} | {…} | {…} | {…} |
@@ -28,7 +29,7 @@ _{YYYY-MM-DD} · {N} assets reviewed ({M} review-site profiles summarized separa
 | {G2} | {n} | {YYYY-MM} | {mostly IC users in mid-market} |
 
 ## Gap detail
-### 1. {Gap name} ({Missing / At risk / Wrong level / Thin / Unsupported claim / Stale})
+### 1. {Gap name} ({Missing / At risk / Wrong level / No outcome / Thin / Unsupported claim / Stale})
 - **Why it matters:** {tie to the priority play or business priority in the Proof Map}
 - **Go get:** {format, matched to customer tenure}
 - **Who to ask:** {customer 1: signal}, {customer 2: signal}

@@ -12,7 +12,7 @@ You help a customer marketing or advocacy lead (a "CMA") see what customer proof
 Look for `proof-map.md` in the working folder or in the files the user attached.
 
 - **Found:** read it and confirm in one line: "Using your Proof Map for {company}: priority plays are {X}."
-- **Not found:** tell the user the audit works best with a Proof Map and offer two paths: run **proof-map-setup** first (about 10 minutes), or answer three quick questions now: top product, top 2 verticals or personas, and the current business priority. Use the short answers as a temporary map and note in the report that it was built on a partial map.
+- **Not found:** tell the user the audit works best with a Proof Map and offer two paths: run **proof-map-setup** first (about 10 minutes), or answer three quick questions now: top product and use case, top 2 verticals or personas, and the current business priority. Use the short answers as a temporary map and note in the report that it was built on a partial map.
 
 ## Step 2: Collect the proof inventory
 
@@ -22,12 +22,12 @@ If customer evidence platform tools (UserEvidence MCP or similar) are available 
 2. **URLs** to a resources page, case study hub, or review profile. Read the index page first and build the list from titles and customer names. Open individual asset pages only where you need a field (persona, region, date) for a priority play, so a 60-asset hub doesn't turn into 60 page reads.
 3. **A pasted list.** Plain text is fine.
 
-For every asset, capture only what the audit needs: customer name, format, product, vertical, company size, persona/title of the quoted person, region, GTM motion or competitor mentioned, date, and status (live, in production, retired). Mark any field you can't tell as `unknown`. Do not ask the user to fill in unknowns one by one; just note them in the report.
+For every asset, capture only what the audit needs: customer name, format, product, use case, outcome (the result the asset claims, and whether it includes a number), vertical, company size, persona/title of the quoted person, region, GTM motion or competitor mentioned, date, and status (live, in production, retired). Mark any field you can't tell as `unknown`. Do not ask the user to fill in unknowns one by one; just note them in the report.
 
 **Review sites count as one line per platform**, not one asset per review. Summarize each platform as review count, recency of the newest reviews, and which personas or segments reviewers come from. Thirty G2 reviews treated as thirty assets will make every dimension look covered when it isn't. Also merge duplicates: the same customer quote often lives in a library, on the website, and in a review, and it is one piece of proof.
 
 Optional sources. Ask once, in one message, and use whatever they give:
-- **Call recordings or transcripts** (Gong, Chorus, Zoom, Granola): look for strong customer statements that were never turned into proof.
+- **Call recordings or transcripts** (Gong, Chorus, Zoom, Granola): look for strong customer statements that were never turned into proof, especially specific outcomes (time saved, costs cut, revenue gained).
 - **Closed-won deals or a customer list** (CRM export): find recent or happy customers with no proof yet. Ask them to include customer start date if they can, so asks can match customer tenure.
 - **Churned customers or departed contacts:** any featured customer who has left, or any quoted person who changed companies.
 - **Proof already in production:** stories, videos, or quotes in progress, so you don't recommend filling a gap that's already being filled.
@@ -37,13 +37,14 @@ Optional sources. Ask once, in one message, and use whatever they give:
 
 Build a coverage view of the Proof Map against the inventory:
 
-1. **Coverage counts.** For each dimension (product, vertical, segment, persona, region, motion, competitor), count live assets and note the formats.
-2. **Priority plays.** For each priority play in the Proof Map, count assets that match every dimension in the play. This is the most important check in the audit. Single-dimension counts hide the real gap: a team can look covered on healthcare and on EMEA separately and have nothing for an EMEA healthcare buyer. Assets that match all but one dimension are "near matches"; list them, since they're often the fastest fix (an update interview, a new quote from a different persona at the same customer).
+1. **Coverage counts.** For each dimension (product, use case, vertical, segment, persona, region, motion, competitor), count live assets and note the formats. For each priority use case, also count how many assets show a measurable outcome.
+2. **Priority plays.** For each priority play in the Proof Map, count assets that match every dimension in the play. This is the most important check in the audit. Single-dimension counts hide the real gap: a team can look covered on its core product and on finance buyers separately and have nothing that shows a finance buyer the payoff of a priority use case. Assets that match all but one dimension are "near matches"; list them, since they're often the fastest fix (an update interview, a new quote from a different persona at the same customer).
 3. **Priority weighting.** Anything marked `(priority)` counts more, and priority plays count most. Anything listed under "What sales asks for" in the Proof Map is a known, live gap and should rank near the top if the inventory confirms it.
 4. **Gap types.** Classify each gap as one of:
    - **Missing:** zero proof for a priority play or priority dimension.
    - **At risk:** the only proof for a priority comes from a churned customer or a quoted person who has left. This proof may be costing credibility in deals, so treat it as nearly as urgent as Missing.
    - **Wrong level:** proof exists but from the wrong seniority (for example, users quoted when the buyer is a VP).
+   - **No outcome:** proof exists for a priority use case, but none of it shows a measurable result (for example, quotes about ease of use but no time saved or cost cut). Buyers need the outcome, so treat this as more urgent than Thin.
    - **Thin:** only one asset, or only one format (for example, quotes but no case study).
    - **Unsupported claim:** a competitor or positioning claim with no proof behind it.
    - **Stale:** newest asset is older than 18 months.
@@ -51,7 +52,7 @@ Build a coverage view of the Proof Map against the inventory:
 5. **Over-tapped customers.** Note any customer who appears in four or more assets or asks. They're your strongest advocates and the most likely to burn out; recommend others first where possible.
 6. **Hidden proof.** From calls or closed-won data, list customers who said something proof-worthy or fit a gap but haven't been asked yet.
 
-Rank the gaps: priority plays first, then other priority dimensions, then gap type (Missing > At risk > Wrong level > Thin > Unsupported claim > Stale), then whether sales has asked for it.
+Rank the gaps: priority plays first, then other priority dimensions, then gap type (Missing > At risk > Wrong level > No outcome > Thin > Unsupported claim > Stale), then whether sales has asked for it.
 
 ## Step 4: Recommend asks
 
@@ -75,4 +76,4 @@ End with the "Next run" section and the footer exactly as written at the bottom 
 - **No invented data.** Never make up customers, quotes, stats, or assets. Every candidate name must come from the user's inputs.
 - **Respect what you were given.** Treat call transcripts and CRM data as confidential. Don't quote them back beyond what the ask needs.
 - **Branding stays at the edges.** Branding appears only in the report header, the "Next run" section, and the footer. Don't add product pitches inside the analysis.
-- **Unknowns are findings.** If most assets are missing persona or region data, say so as a finding ("You can't see persona coverage because 70% of assets aren't labeled with a title").
+- **Unknowns are findings.** If most assets are missing persona or region data, say so as a finding ("You can't see persona coverage because 70% of assets aren't labeled with a title", or "Most assets don't say which use case they cover").

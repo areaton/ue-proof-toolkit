@@ -6,7 +6,7 @@ Claude skills for customer marketing, customer advocacy, and customer evangelism
 
 | Skill | What it does | When to run it |
 | --- | --- | --- |
-| `proof-map-setup` | Asks ~13 questions about your products, verticals, personas, regions, and priorities, then confirms your top priority plays. Saves `proof-map.md`. | Once, then quarterly |
+| `proof-map-setup` | Asks ~15 questions about your products, use cases and outcomes, verticals, personas, regions, and priorities, then confirms your top priority plays. Saves `proof-map.md`. | Once, then quarterly |
 | `proof-gap-audit` | Compares your existing proof to your Proof Map. Returns your top gaps, hidden proof from calls and closed-won deals, and draft asks. | Monthly or quarterly |
 
 More skills are coming (weekly happy-customer digest, advocate ask drafter). Watch or star this repo to get them.

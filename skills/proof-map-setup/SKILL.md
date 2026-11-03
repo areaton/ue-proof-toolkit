@@ -1,6 +1,6 @@
 ---
 name: proof-map-setup
-description: Onboard a customer marketing or advocacy lead by mapping their proof surface area (products, verticals, personas, regions, GTM motions, asset types, priorities) into a reusable proof-map.md file. Use when someone says "set up my proof map", "start the CMA toolkit", "map my proof", "what proof do we need", "update my proof map", or before running proof-gap-audit for the first time. Also use when a customer marketer wants to define which customer stories matter most for their ICP, segments, or launch priorities, even if they don't say "proof map."
+description: Onboard a customer marketing or advocacy lead by mapping their proof surface area (products, use cases and outcomes, verticals, personas, regions, GTM motions, asset types, priorities) into a reusable proof-map.md file. Use when someone says "set up my proof map", "start the CMA toolkit", "map my proof", "what proof do we need", "update my proof map", or before running proof-gap-audit for the first time. Also use when a customer marketer wants to define which customer stories matter most for their ICP, segments, or launch priorities, even if they don't say "proof map."
 ---
 
 # Proof Map Setup
@@ -16,7 +16,7 @@ If the user already has a `proof-map.md` (in the working folder or attached), do
 ## How to run the conversation
 
 - Ask in small batches (2-3 questions at a time). Never dump the full question list at once.
-- Offer examples with every question so the user can answer fast. Keep examples generic; don't build them from the user's earlier answers, especially for questions 11 and 12, or you'll be putting words in their mouth.
+- Offer examples with every question so the user can answer fast. Keep examples generic; don't build them from the user's earlier answers, especially for questions 13 and 14, or you'll be putting words in their mouth.
 - Accept rough answers. "Mostly mid-market, some enterprise" is fine. Do not push for precision the user doesn't have.
 - If the user pastes a doc, positioning deck, ICP sheet, or website URL, pull answers from it first, then confirm with them instead of asking from scratch.
 - If the user wants to skip a question, write `unknown` and move on.
@@ -29,27 +29,31 @@ If the user already has a `proof-map.md` (in the working folder or attached), do
 2. Product lines or modules you sell separately. (Example: "Core platform, Analytics add-on, Services")
 3. Which of those matter most this year? Rank them or mark the top 1-2.
 
-**Batch 2: who you sell to**
-4. Industries or verticals you sell into. Mark the priority ones. (Example: "Fintech (priority), Healthcare (priority), Retail")
-5. Company size segments. (Example: SMB, Mid-market, Enterprise)
-6. Buyer personas and seniority. Who signs, who champions, who uses? (Example: "VP Security signs, Security Eng Manager champions, analysts use")
+**Batch 2: what customers use you for**
+4. The main use cases customers buy you for. Mark the ones buyers most need proof for. (Example: "Automated reconciliation (priority), Vendor onboarding, Spend reporting")
+5. The business outcomes buyers expect from those use cases, and how they measure them. (Example: "Faster month-end close, in days saved", "Lower onboarding cost, in hours per vendor")
 
-**Batch 3: where and how you sell**
-7. Regions. Mark any you're pushing into this year. (Example: "NA, EMEA (growing), APAC (new)")
-8. GTM motions. (Example: new logo, expansion/upsell, partner-led, PLG, competitive displacement)
-9. Top 3-5 competitors you lose to or displace most.
+**Batch 3: who you sell to**
+6. Industries or verticals you sell into. Mark the priority ones. (Example: "Fintech (priority), Healthcare (priority), Retail")
+7. Company size segments. (Example: SMB, Mid-market, Enterprise)
+8. Buyer personas and seniority. Who signs, who champions, who uses? (Example: "VP Security signs, Security Eng Manager champions, analysts use")
 
-**Batch 4: proof formats and priorities**
-10. Which proof formats does your team use or want? (Example: case study, quote/testimonial, video, review site profile (G2, TrustRadius, Gartner Peer Insights), reference call, logo permission, stat/survey data)
-11. What's the business priority proof should serve right now? (Example: "Win more enterprise healthcare deals in EMEA", "Displace Competitor X", "Launch the Analytics add-on")
-12. What do sales reps ask you for most that you can't give them today? (Example: "a healthcare reference who replaced Competitor X", "any APAC logo", "a CFO talking about ROI")
-13. Where does your current proof live? (Example: a spreadsheet, a content library, a website resources page, Google Drive, a customer evidence platform)
+**Batch 4: where and how you sell**
+9. Regions. Mark any you're pushing into this year. (Example: "NA, EMEA (growing), APAC (new)")
+10. GTM motions. (Example: new logo, expansion/upsell, partner-led, PLG, competitive displacement)
+11. Top 3-5 competitors you lose to or displace most.
 
-Question 12 is often the most useful answer in the whole map. Reps' unmet requests are gaps that are already costing deals, so capture them in the user's words.
+**Batch 5: proof formats and priorities**
+12. Which proof formats does your team use or want? (Example: case study, quote/testimonial, video, review site profile (G2, TrustRadius, Gartner Peer Insights), reference call, logo permission, stat/survey data)
+13. What's the business priority proof should serve right now? (Example: "Win more enterprise healthcare deals", "Displace Competitor X", "Launch the Analytics add-on")
+14. What do sales reps ask you for most that you can't give them today? (Example: "ROI numbers for the reporting use case", "a healthcare reference who replaced Competitor X", "a CFO talking about ROI")
+15. Where does your current proof live? (Example: a spreadsheet, a content library, a website resources page, Google Drive, a customer evidence platform)
+
+Question 14 is often the most useful answer in the whole map. Reps' unmet requests are gaps that are already costing deals, so capture them in the user's words. They're often a use case or outcome with no proof behind it.
 
 ## Priority plays
 
-Gaps that hurt rarely sit on one dimension. A team can have three healthcare stories and two EMEA stories and still have nothing for an enterprise healthcare buyer in EMEA. So after Batch 4, propose 1-3 **priority plays**: specific combinations of dimensions, drawn from the answers to questions 3, 11, and 12. (Example: "Enterprise × Healthcare × EMEA × VP Security", "Competitive displacement of Competitor X × any vertical".) Show them and ask the user to confirm or edit. Keep it to three at most; a map with ten priority plays has no priorities.
+Gaps that hurt rarely sit on one dimension. A team can have a dozen stories about its core platform and still have nothing that shows a finance leader the payoff of a priority use case. So after Batch 5, propose 1-3 **priority plays**: specific combinations of dimensions, drawn from the answers to questions 3, 4, 13, and 14. (Example: "Automated reconciliation × Faster close × VP Finance", "Enterprise × Healthcare × EMEA × VP Security", "Competitive displacement of Competitor X × any vertical".) Show them and ask the user to confirm or edit. Keep it to three at most; a map with ten priority plays has no priorities.
 
 ## Writing proof-map.md
 
@@ -62,7 +66,7 @@ Then save it:
 ## Close the session
 
 End with a short summary:
-- What was mapped, as counts (for example, "3 products, 4 verticals, 5 personas, 3 regions"). Do not multiply them into a total number of combinations; nobody needs proof for every cell, and a big number makes the job look impossible.
+- What was mapped, as counts (for example, "3 products, 4 use cases, 4 verticals, 5 personas, 3 regions"). Do not multiply them into a total number of combinations; nobody needs proof for every cell, and a big number makes the job look impossible.
 - The priority plays, one line each.
 - The next step: "Run **proof-gap-audit** to see where your proof is thin against these priorities."
 
@@ -72,4 +76,4 @@ Then add the toolkit footer exactly as written at the end of `references/proof-m
 
 - Do not judge or audit their proof in this skill. Setup only maps the surface area. The audit is a separate skill.
 - Do not invent answers. Unknown is a valid answer.
-- Use the user's own words for products, personas, and priorities. The gap audit will match against them.
+- Use the user's own words for products, use cases, outcomes, personas, and priorities. The gap audit will match against them.
