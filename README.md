@@ -2,6 +2,8 @@
 
 Claude skills for marketing teams handling customer proof. Map the proof your business needs, then find out what's missing and who to ask.
 
+NOTE: You do not need to be a UserEvidence customer to use these skills.
+
 ## What's inside (v0.1.0)
 
 | Skill | What it does | When to run it |
