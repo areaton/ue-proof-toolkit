@@ -1,6 +1,6 @@
-# UserEvidence CMA Toolkit
+# UserEvidence Proof Toolkit
 
-Claude skills for customer marketing, customer advocacy, and customer evangelism teams. Map the proof your business needs, then find out what's missing and who to ask.
+Claude skills for marketing teams handling customer proof. Map the proof your business needs, then find out what's missing and who to ask.
 
 ## What's inside (v0.1.0)
 
